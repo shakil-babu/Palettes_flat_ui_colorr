@@ -1,0 +1,65 @@
+
+.modal__area{
+    margin-bottom: 40px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 6px;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.theme__title{
+    display: flex;
+}
+.theme__title h3{
+    color: #333;
+    font-size: 30px;
+    margin-left: 5px ;
+    letter-spacing: 2.4px;
+}
+.theme__title .icon{
+    font-size: 40px;
+}
+.modal__area p{
+    margin-top: 6px;
+    color: #333;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.remove_icon{
+    background: #000;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.remove_icon .i{
+    font-size: 15px;
+    color: #fff;
+}
+.remove_icon:hover{
+    background: red;
+}
+
+@media screen and (max-width:768px){
+    .theme__title h3{
+        color: #333;
+        margin: 0;
+        font-size: 15px;
+    }
+    .theme__title .icon{
+        display: none;
+    }
+    .modal__area p{
+        font-size: 13px;
+    }
+}

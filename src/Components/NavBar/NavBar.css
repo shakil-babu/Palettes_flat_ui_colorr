@@ -1,0 +1,74 @@
+
+.nav__area{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.nav__logo a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 2.8px;
+    font-weight: 600;
+    text-shadow: 0 1px,1px 0,1px 1px;
+    user-select: none;
+    transition: all .2s;
+    transform-origin: 0 50%;
+}
+.nav__links{
+    display: flex;
+    margin-top: 5px;
+    
+}
+
+.nav__links a{
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #fff;
+    transition: all .2s;
+    letter-spacing: 2.3px;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav__links a:after{
+    content: '';
+    background-color: #fff;
+    width: 50%;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: -30px;
+    opacity: 0;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.nav__links a:hover::after{
+    /* border-bottom: 1px solid #fff;
+    border-width: 50%; */
+    left: 0;
+    opacity: 1;
+}
+
+
+/* ======================= simple mobile menu */
+
+@media screen and (max-width:768px){
+    .nav__area{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav__logo a{
+        font-size: 20px;
+    }
+    .nav__links{
+        background: #000;
+        padding: 20px;
+    }
+    .nav__links a{
+        margin-left: 15px;
+        font-size: 15px;
+    }
+}

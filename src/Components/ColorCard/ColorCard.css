@@ -1,0 +1,43 @@
+
+.card__area{
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 40px;
+    background: #fff;
+    padding: 10px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.card-color{
+    display: flex;
+
+}
+.title-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.title-icon h3{
+    font-size: 20px;
+    color: #333;
+}
+.title-icon button{
+    border:none;
+    outline: none;
+    background: orange;
+    border-radius: 100%;
+    color: #fff;
+}
+
+
+@media screen and (max-width:992px){
+    .card__area{
+        width: 100%;
+    }
+    .card-color div{
+        width: 20% !important;
+        height: 70px !important;
+    }
+  
+}

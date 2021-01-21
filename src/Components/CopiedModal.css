@@ -1,0 +1,42 @@
+
+
+.copied__area{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hotpink;
+    flex-direction: column;
+}
+.copied__area h1{
+    font-size: 80px;
+    color: #fff;
+    letter-spacing: 4.4px;
+    font-weight: 600;
+    font-family:fantasy;
+    text-transform: uppercase;
+    background: rgba(102, 101, 101, 0.548);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px; 
+    
+}
+.copied__area p{
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:800px){
+    .copied__area h1{
+        font-size: 40px;
+        line-height: 100px;
+    }
+}
+@media screen and (max-width:400px){
+    .copied__area h1{
+        font-size: 20px;
+        line-height: 100px;
+    }
+}

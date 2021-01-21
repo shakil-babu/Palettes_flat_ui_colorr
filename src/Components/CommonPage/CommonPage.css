@@ -1,0 +1,72 @@
+.subscribe__area{
+    background-color: #3c40c6 ;
+    padding-top: 40px;
+}
+.subscribe__container{
+    width: 75%;
+    margin: auto;
+}
+.icon__arrow{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.icon__arrow span{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2.4px;
+}
+
+.title_flex h3{
+    font-weight: 700;
+    font-size: 36px;
+    width: 100%;
+    text-align: left;
+    display: block;
+    float: left;
+    margin-top: 20px;
+    letter-spacing: 2.5px;
+    line-height: 50px;
+}
+.subscribe__container p{
+    width: 60%;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    margin-top: 30px;
+    
+}
+
+input{
+    width: 100%;
+height: 100%;
+line-height: 18px;
+border-radius: 4px;
+background: #fff;
+font-family: Barlow;
+font-size: 18px;
+font-weight: 600;
+padding: 12px 16px;
+box-sizing: border-box;
+border: none;
+float: left;
+color: #000;
+}
+
+.submit{
+    padding: 3px 24px;
+    box-sizing: border-box;
+    line-height: 42px;
+    background: #fff;
+    border-radius: 4px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    transition: all .2s;
+    border: none;
+
+}

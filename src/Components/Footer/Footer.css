@@ -1,0 +1,46 @@
+
+
+.footer__area{
+    background-color: rgba(0, 0, 0, 0.384);
+    padding: 40px 0;
+}
+
+.footer__container{
+    width: 75%;
+    margin:auto ;
+}
+
+.content__flex{
+    display: flex;
+    flex-basis:25%;
+}
+.content{
+    margin-right: 60px;
+}
+
+.content h2{
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.content a{
+    letter-spacing: 1.4px;
+    text-decoration: none;
+    margin-top: 7px;
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:800px){
+    .content__flex{
+       flex-direction: column;
+        flex-basis: 100%;
+        
+    }
+    .content{
+       margin-top: 10px;
+    }
+}
