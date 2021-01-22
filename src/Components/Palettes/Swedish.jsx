@@ -14,4 +14,7 @@ const Swedish = () => {
     )
 }
 
+// This is swedish palette information
+
+
 export default Swedish
